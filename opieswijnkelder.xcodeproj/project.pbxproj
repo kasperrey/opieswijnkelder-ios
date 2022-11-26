@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C018B0328D0FB4300E98909 /* BiertjeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C018B0228D0FB4300E98909 /* BiertjeTableViewController.swift */; };
 		6CB56D6728C8D98A00F78342 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB56D6628C8D98A00F78342 /* AppDelegate.swift */; };
 		6CB56D6928C8D98A00F78342 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB56D6828C8D98A00F78342 /* SceneDelegate.swift */; };
-		6CB56D6B28C8D98A00F78342 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB56D6A28C8D98A00F78342 /* ViewController.swift */; };
+		6CB56D6B28C8D98A00F78342 /* BiertjeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB56D6A28C8D98A00F78342 /* BiertjeViewController.swift */; };
 		6CB56D6E28C8D98A00F78342 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB56D6C28C8D98A00F78342 /* Main.storyboard */; };
 		6CB56D7128C8D98A00F78342 /* opieswijnkelder3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CB56D6F28C8D98A00F78342 /* opieswijnkelder3.xcdatamodeld */; };
 		6CB56D7328C8D98A00F78342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CB56D7228C8D98A00F78342 /* Assets.xcassets */; };
 		6CB56D7628C8D98A00F78342 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB56D7428C8D98A00F78342 /* LaunchScreen.storyboard */; };
+		6CD04D0528D5E1BC004BC0D8 /* cellviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD04D0428D5E1BC004BC0D8 /* cellviewcontroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C018B0228D0FB4300E98909 /* BiertjeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiertjeTableViewController.swift; sourceTree = "<group>"; };
 		6CB56D6328C8D98A00F78342 /* opieswijnkelder3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = opieswijnkelder3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CB56D6628C8D98A00F78342 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CB56D6828C8D98A00F78342 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6CB56D6A28C8D98A00F78342 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CB56D6A28C8D98A00F78342 /* BiertjeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiertjeViewController.swift; sourceTree = "<group>"; };
 		6CB56D6D28C8D98A00F78342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CB56D7028C8D98A00F78342 /* opieswijnkelder3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = opieswijnkelder3.xcdatamodel; sourceTree = "<group>"; };
 		6CB56D7228C8D98A00F78342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CB56D7528C8D98A00F78342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CB56D7728C8D98A00F78342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD04D0428D5E1BC004BC0D8 /* cellviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellviewcontroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,14 @@
 			children = (
 				6CB56D6628C8D98A00F78342 /* AppDelegate.swift */,
 				6CB56D6828C8D98A00F78342 /* SceneDelegate.swift */,
-				6CB56D6A28C8D98A00F78342 /* ViewController.swift */,
+				6CB56D6A28C8D98A00F78342 /* BiertjeViewController.swift */,
 				6CB56D6C28C8D98A00F78342 /* Main.storyboard */,
 				6CB56D7228C8D98A00F78342 /* Assets.xcassets */,
 				6CB56D7428C8D98A00F78342 /* LaunchScreen.storyboard */,
 				6CB56D7728C8D98A00F78342 /* Info.plist */,
 				6CB56D6F28C8D98A00F78342 /* opieswijnkelder3.xcdatamodeld */,
+				6C018B0228D0FB4300E98909 /* BiertjeTableViewController.swift */,
+				6CD04D0428D5E1BC004BC0D8 /* cellviewcontroller.swift */,
 			);
 			path = opieswijnkelder3;
 			sourceTree = "<group>";
@@ -141,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CB56D6B28C8D98A00F78342 /* ViewController.swift in Sources */,
+				6CB56D6B28C8D98A00F78342 /* BiertjeViewController.swift in Sources */,
 				6CB56D6728C8D98A00F78342 /* AppDelegate.swift in Sources */,
+				6CD04D0528D5E1BC004BC0D8 /* cellviewcontroller.swift in Sources */,
+				6C018B0328D0FB4300E98909 /* BiertjeTableViewController.swift in Sources */,
 				6CB56D6928C8D98A00F78342 /* SceneDelegate.swift in Sources */,
 				6CB56D7128C8D98A00F78342 /* opieswijnkelder3.xcdatamodeld in Sources */,
 			);
