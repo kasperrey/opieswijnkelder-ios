@@ -31,11 +31,13 @@
       "size" : "40x40"
     },
     {
+      "filename" : "icoon.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
+      "filename" : "icoon2.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
@@ -71,6 +73,13 @@
       "size" : "40x40"
     },
     {
+      "filename" : "appicoon2.png",
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "size" : "76x76"
+    },
+    {
+      "filename" : "appicoon.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "76x76"
